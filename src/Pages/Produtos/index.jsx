@@ -90,8 +90,9 @@ export default function Produtos() {
   return (
     <div className='Produtos'>
       <span className='GridBox'>
-        <Box sx={{ height: 400, width: '90%', backgroundColor: 'white' }}>
+        <Box sx={{ height: 'auto', width: '90%', backgroundColor: 'white' }}>
           <DataGrid
+            autoHeight
             rows={rows}
             columns={columns}
             initialState={{

@@ -71,8 +71,9 @@ export default function Funcoes() {
   return (
     <div className='Funcoes'>
       <span className='GridBox'>
-        <Box sx={{ height: 400, width: '90%', backgroundColor: 'white' }}>
+        <Box sx={{ height: 'auto', width: '90%', backgroundColor: 'white' }}>
           <DataGrid
+            autoHeight
             rows={rows}
             columns={columns}
             initialState={{
