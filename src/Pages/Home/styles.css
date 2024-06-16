@@ -1,0 +1,57 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.Home h3 {
+    text-align: center;
+    color: #0D7377;
+    padding: 10px 0;
+}
+
+.Home section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    gap: 10px;
+}
+
+.Home section img {
+    width: 50vw;
+    height: auto;
+    box-shadow: 0px 0px 3px 1px #093d3f;
+}
+
+.Home section p {
+    font-size: clamp(0.7rem, 2vw, 1rem);
+    color: #344f50;
+}
+
+.Home .Coments {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width:769px) {
+    .Home .Coments {
+        flex-direction: row;
+        height: 300px;
+    }
+}
+
+@media(min-width: 1000px) {
+
+
+    .Home section {
+        padding: 0 20%;
+    }
+
+    .Home section img {
+        width: 20vw;
+        height: auto;
+        box-shadow: 0px 0px 3px 1px #093d3f;
+    }
+}

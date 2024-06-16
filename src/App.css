@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000; 1.200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+header {
+  height: 80px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0D7377;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header nav span {
+  display: flex;
+  gap: 10px;
+
+}
+
+a {
+  color: black;
+}
+
+.Icon,
+.LogoIcon {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: white;
+  color: #0D7377;
+  margin: 10px 0px;
+}
+
+.Logo {
+  display: flex;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+  background-image: url(https://img.freepik.com/free-photo/medium-shot-smiley-man-warehouse_23-2149214306.jpg?t=st=1717878849~exp=1717882449~hmac=513533f0760ccde4dbd13025d95280a7626d1e4a38c895148a7143bb88d80dda&w=1380);
+  width: 100vw;
+  height: 80vw;
+  background-position: center;
+
+
+}
+
+main span .Card {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  padding-top: 3vw;
+  flex-direction: column;
+  gap: 5vw;
+  color: #0D7377;
+}
+
+main span {
+  width: 100vw;
+  height: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(13, 115, 119, 0.5);
+}
+
+.Card h3 {
+  border-bottom: 1px solid #0D7377;
+}
+
+.Card h4 {
+  font-size: clamp(1rem, 3vw, 300px);
+}
+
+.NavPages {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px 1px #0D7377;
+  padding: 10px;
+}
+
+.NavPages a {
+  font-size: clamp(0.7rem, 2vw, 1rem);
+  cursor: pointer;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  width: 99vw;
+  position: static;
+  padding-top: 50px;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+  align-items: center;
+}
+
+footer div p {
+  border-right: 1px solid gray;
+  padding: 0 1vw;
+  font-size: clamp(0.6rem, 2vw, 1rem);
+}
+
+.Info {
+  display: flex;
+  width: 60px;
+  background-color: #0D7377;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 20px;
+  align-items: center;
+  gap: 4px;
+}
+
+.mainHidden {
+  display: none;
+}
+
+
+.MainPage {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.829), rgba(13, 116, 119, 0.158));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+}
+
+@media (min-width: 770px) {
+  main {
+    background-image: url(https://img.freepik.com/free-photo/man-working-logistic-center-full-shot_23-2148943327.jpg?t=st=1718472907~exp=1718476507~hmac=61a95643061dfc6a79b5a1b78a7dd1be1e77df76ed909673a7c2a7cb67469590&w=1480);
+    width: 100%;
+    height: 30vw;
+    background-position: unset;
+    background-size: cover;
+  }
+
+  main span {
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 115, 119, 0.5);
+  }
+
+  main span .Card {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    padding-top: 2vw;
+    flex-direction: column;
+    gap: 5vw;
+    color: #0D7377;
+  }
+}
+
+
+@media(min-width: 472px) {
+  footer {
+    position: static;
+  }
+}

@@ -1,0 +1,81 @@
+.Relatorios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    gap: 20px;
+    background-color: white;
+}
+
+.SpanSelectRadio {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.SpanInputIDs {
+    color: gray;
+}
+
+.SpanDisplayNone {
+    display: none;
+}
+
+.SpanIDDate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.DateInput {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 200px;
+}
+
+.DateInput input {
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+@media(min-width:800px) {
+
+    .Form {
+        align-items: center;
+    }
+
+    .SpanSelectRadio {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .SpanIDDate {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media(min-width:830px) {
+    .Form {
+        width: 800px;
+    }
+}

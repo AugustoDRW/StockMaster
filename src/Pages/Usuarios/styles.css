@@ -1,0 +1,22 @@
+.Usuarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.Usuarios .GridBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(min-width: 700px) {
+
+    .Usuarios .GridBox {
+        width: 700px;
+    }
+}

@@ -1,0 +1,23 @@
+.Funcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+
+.Funcoes .GridBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(min-width: 600px) {
+
+    .Funcoes .GridBox {
+        width: 600px;
+    }
+}
